@@ -1,0 +1,31 @@
+=== pysat: ===
+pysat:
+G, T, 2, G, G, T, 3, T, T, G, 2, T, T, 1, G, G, T, 2, G, G
+G, 3, T, G, 2, T, G, G, T, 3, G, T, G, G, 2, G, G, G, T, 2
+T, G, G, 2, G, G, G, 3, G, T, G, 2, G, G, T, T, T, 2, G, T
+2, T, G, G, T, 3, T, T, G, 2, G, T, 2, G, T, G, 3, G, G, G
+G, G, 2, T, G, T, G, 2, G, T, G, T, 3, G, G, 2, G, T, 3, T
+G, G, G, 3, T, G, G, G, 2, T, T, T, G, 2, T, G, G, 3, T, G
+T, 2, G, T, G, 2, T, G, G, 3, T, T, T, G, G, 3, T, G, G, G
+3, T, G, G, G, G, G, 2, G, G, G, 3, G, G, T, G, G, 2, G, T
+G, T, 3, T, G, 2, G, T, G, G, G, G, 2, T, T, 2, G, T, 3, G
+T, G, G, 2, G, T, T, 3, G, G, G, T, G, 3, G, G, G, 2, G, T
+2, T, T, G, G, 3, T, G, 2, G, T, G, 2, G, T, T, T, G, G, 2
+G, 3, T, T, G, G, 2, G, T, T, 3, G, G, T, T, G, 3, T, T, G
+G, G, G, 3, T, T, G, G, G, 2, G, T, T, G, 2, G, G, G, 2, G
+T, 2, G, G, G, 2, G, G, G, G, G, G, 3, G, G, G, T, G, G, G
+3, T, G, T, G, G, G, 2, G, 2, G, T, G, 2, T, T, G, 3, G, G
+G, T, 3, G, G, G, T, 3, T, T, G, 2, T, G, G, 2, G, T, T, T
+G, G, G, 2, G, G, T, G, 2, G, G, G, G, 3, G, G, G, G, 3, G
+G, 2, T, T, G, 3, G, G, G, G, G, G, 2, T, T, 2, G, G, G, G
+G, G, T, 4, T, G, T, T, T, 2, T, T, G, G, 3, T, G, T, T, T
+T, 2, G, G, G, 2, G, 3, G, G, G, 2, G, G, G, G, G, G, 3, G
+Thời gian chạy: 0.00283s
+
+=== brute force: ===
+Không có kết quả (Brute Force).
+Thời gian chạy: Không xác định
+
+=== backtracking: ===
+Bỏ qua do thời gian chạy quá lớn.
+

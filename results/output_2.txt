@@ -1,0 +1,22 @@
+=== pysat: ===
+pysat:
+2, T, G, 1, G, T, 2, G, T, 1, G
+T, 4, T, G, 3, T, G, 2, G, G, 1
+T, G, 3, T, G, 2, G, T, 3, T, G
+1, G, T, 3, G, T, 2, G, T, 2, 1
+G, 2, G, T, 4, G, G, 3, G, G, 2
+T, G, 3, T, T, 4, T, T, 3, T, T
+1, 2, T, G, 3, T, T, 4, T, G, 2
+G, G, 2, G, G, 3, G, G, 2, G, G
+1, G, T, 2, G, T, 2, G, T, 3, 1
+T, 3, G, T, 2, G, T, 3, T, T, 2
+T, G, 1, G, G, 1, G, G, 2, G, T
+Thời gian chạy: 0.00054s
+
+=== brute force: ===
+Không có kết quả (Brute Force).
+Thời gian chạy: Không xác định
+
+=== backtracking: ===
+Bỏ qua do thời gian chạy quá lớn.
+

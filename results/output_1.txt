@@ -1,0 +1,27 @@
+=== pysat: ===
+pysat:
+T, 3, G, T, 2
+T, 4, T, T, G
+T, G, 3, G, 3
+2, G, G, T, T
+T, 1, G, 3, T
+Thời gian chạy: 0.00021s
+
+=== brute force: ===
+brute force:
+G, 3, T, T, 2
+T, 4, T, G, T
+G, T, 3, G, 3
+2, G, G, T, T
+T, 1, G, 3, T
+Thời gian chạy: 0.18629s
+
+=== backtracking: ===
+backtracking:
+G, 3, T, T, 2
+T, 4, T, G, T
+G, T, 3, G, 3
+2, G, G, T, T
+T, 1, G, 3, T
+Thời gian chạy: 0.06454s
+
