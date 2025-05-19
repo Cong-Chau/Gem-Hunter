@@ -61,14 +61,13 @@ def process(choice):
             f.write("Không có kết quả (Brute Force).\n")
             f.write(f"Thời gian chạy: Không xác định\n\n")
 
-        # # Backtracking
+        # Backtracking
         print("=== backtracking: ===")
         if choice in ["2", "3"]:
             print("Backtracking: Bỏ qua do thời gian chạy quá lớn.\n")
             f.write("=== backtracking: ===\n")
             f.write("Bỏ qua do thời gian chạy quá lớn.\n\n")
         else:
-            # unknown_vars = get_unknown_vars(grid)
             start = time.perf_counter()
             model_bt = backtrack(cnf, num_vars)
             elapsed = time.perf_counter() - start
@@ -102,6 +101,5 @@ def main():
             stop = 0
             
         
-            
 if __name__ == "__main__":
     main()

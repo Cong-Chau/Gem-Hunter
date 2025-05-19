@@ -1,10 +1,10 @@
-from pysat.solvers import Glucose3
-
-def solve_pysat(cnf):
-    solver = Glucose3()
-    for clause in cnf:
-        solver.add_clause(clause)
-    if solver.solve():
-        return solver.get_model()
-    else:
-        return None
+from pysat.solvers import Glucose3 
+def solve_pysat(CNF):
+    solverSAT = Glucose3()
+    # đi trong từng mệnh đề trong CNF
+    for clause in CNF:
+        solverSAT.add_clause(clause)
+    if solverSAT.solve():
+        return solverSAT.get_model()
+    return None
+    
